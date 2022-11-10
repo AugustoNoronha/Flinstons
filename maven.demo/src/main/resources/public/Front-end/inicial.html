@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inicial.css">
+    <script src="inicial.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="./imagem/nav logo.png" alt="Home" id="imgnav" onclick="location.href=''">
+        <div  class="dropdown-menu">
+            <h3 id="dw-menu">Categorias</h3>
+            <ul class="dropdown">
+                <li id="livros" onclick="getCategoria('livros')">Livros</li>
+                <li id="perfume" onclick="getCategoria('perfume')">Perfumes</li>
+                <li id="roupas" onclick="getCategoria('roupas')">Roupa</li>
+                <li id="telefones" onclick="getCategoria('telefones')">Telefone</li>
+                <li id="tenis" onclick="getCategoria('tenis')">Tênis</li>
+                <li id="favoritos" >Favoritos</li>
+            </ul>
+        </div>
+        <a href='cadastro.html' class="btn__submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Cadastro
+        </a>
+        <a href='login.html' class="btn__submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Login
+        </a>
+    </div>
+  
+    </div>
+    
+
+
+    <div id="row" class="row">
+        <div class="card" id="card">
+            <img class="image" src="/imagem/nav logo.png" alt="money" />
+            <h2>Produto 1</h2>
+            <p>Configure a monetização</p>
+        </div>
+    </div>
+
+</body>
+<script src="./inicial.js"></script>
+
+</html>
